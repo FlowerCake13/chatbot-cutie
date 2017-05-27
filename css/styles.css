@@ -1,5 +1,5 @@
 body{
-	background-color: LightSkyBlue;
+	background-color: oldLace;
 	text-align: center;
 }
 
@@ -32,16 +32,30 @@ li a:hover {
 }
 
 textarea{
-	height: 79px;
-	width: 160px;
-	font-size: 13px;
+	height: 150px;
+	width: 229px;
+	font-size: 15px;
+}
+
+#demo{
+	background-color: PaleGreen;
+	border-radius: 50%;
+}
+
+#demoHead{
+	margin-top: 3px;
+	margin-bottom: 8px;
+}
+
+#text{
+	height: 100px;
 }
 
 #desc{
 	font-size: 20px;
 }
 
-#log{
+#logThing{
 	height: 158px;
 	width: 320px;
 	margin-top: 0px;
@@ -49,6 +63,11 @@ textarea{
 }
 
 #about{
-	margin-top: 25px;
-	margin-bottom: -5px; 
+	margin-top: -20px;
+	background-color: PaleTurquoise;
+	border-radius: 50%;
+}
+
+#made{
+	margin-top: -20px;
 }
