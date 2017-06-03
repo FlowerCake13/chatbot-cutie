@@ -1,6 +1,7 @@
 body{
 	background-color: oldLace;
 	text-align: center;
+	font-family: 'Bubbler One', sans-serif;
 }
 
 header{
@@ -35,20 +36,29 @@ textarea{
 	height: 150px;
 	width: 229px;
 	font-size: 15px;
+	font-family: 'Bubbler One', sans-serif;
 }
 
 #demo{
 	background-color: PaleGreen;
 	border-radius: 50%;
+	text-align: center;
+	height: 800px;
+	width: 800px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
 }
 
-#demoHead{
-	margin-top: 3px;
+#demoHeadThing{
+	margin-top: 100px;
 	margin-bottom: 8px;
 }
 
 #text{
 	height: 100px;
+	font-size: 18px;
 }
 
 #desc{
@@ -63,9 +73,26 @@ textarea{
 }
 
 #about{
-	margin-top: -20px;
 	background-color: PaleTurquoise;
+	height: 385px;
+	width: 385px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	border-radius: 50%;
+}
+
+#sayStuff{
+	background-color: Plum;
+	height: 385px;
+	width: 385px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 50%;
+	float: left;
 }
 
 #made{
